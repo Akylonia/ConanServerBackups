@@ -1,0 +1,296 @@
+﻿Log file open, 02/08/17 20:19:19
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-20557951) SRandInit(-20557949).
+LogTaskGraph: Started task graph with 3 named threads and 6 total threads with 1 sets of task threads.
+LogModManager: Starting mod runtime module.
+LogInit: Version: 4.12.5-24038+ue412-dw-TestBranch-osl
+LogInit: API Version: 2992821
+LogInit: Net Version: 24038
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Feb  6 2017 18:43:56
+LogInit: Compiled with Visual C++: 19.00.23918.00
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue412-dw-TestBranch-osl
+LogInit: Command line: -GameServerPort=27015 -GameServerQueryPort=27016 -ServerName="[EU/FR] From Trash | Vanilla | NoLag" -MaxPlayers=70 -nosteamclient -game -server -log
+LogInit: Base directory: C:/ConanServer/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Presizing for max 4194304 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.08-19.19.20:124][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-19.19.20:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2017.02.08-19.19.20:187][  0]LogInit: Computer: NS3000162
+[2017.02.08-19.19.20:187][  0]LogInit: User: root
+[2017.02.08-19.19.20:187][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.08-19.19.20:187][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2017.02.08-19.19.20:187][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.02.08-19.19.20:187][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2017.02.08-19.19.20:187][  0]LogMemory: Process Physical Memory: 111.75 MB used, 111.75 MB peak
+[2017.02.08-19.19.20:187][  0]LogMemory: Process Virtual Memory: 131.55 MB used, 131.55 MB peak
+[2017.02.08-19.19.20:187][  0]LogMemory: Physical Memory: 2494.90 MB used, 32667.39 MB total
+[2017.02.08-19.19.20:187][  0]LogMemory: Virtual Memory: 360.50 MB used, 8388608.00 MB total
+[2017.02.08-19.19.20:227][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.08-19.19.20:431][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.19.20:432][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.19.20:433][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.19.20:434][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.19.20:435][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.19.20:436][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.19.20:437][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.19.20:438][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.19.20:439][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.19.20:446][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2017.02.08-19.19.20:447][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2017.02.08-19.19.20:449][  0]Dreamworld:Display: Dreamworld platform: x64
+[2017.02.08-19.19.20:450][  0]Dreamworld:Display: Dreamworld revision: 24053
+[2017.02.08-19.19.20:451][  0]Dreamworld:Display: Dreamworld snapshot: 10057
+[2017.02.08-19.19.20:452][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Test
+[2017.02.08-19.19.20:809][  0]LogAssetRegistry: FAssetRegistry took 0.3520 seconds to start up
+[2017.02.08-19.19.20:814][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005123 seconds
+[2017.02.08-19.19.21:287][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-19.19.21:388][  0]LogUObjectArray: 36672 objects as part of root set at end of initial load.
+[2017.02.08-19.19.21:389][  0]LogUObjectAllocator: 7384672 out of 0 bytes used by permanent object pool.
+[2017.02.08-19.19.21:390][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.08-19.19.21:390][  0]LogModuleManager:Warning: ModuleManager: Module 'XAudio2' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-19.19.21:404][  0]LogWmfMedia: Failed to load mf.dll
+[2017.02.08-19.19.21:404][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2017.02.08-19.19.21:407][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2017.02.08-19.19.21:408][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2017.02.08-19.19.21:408][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2017.02.08-19.19.21:431][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-19.19.21:435][  0]LogEngine: Initializing Engine...
+[2017.02.08-19.19.21:440][  0]LogInit: Texture streaming: Disabled
+[2017.02.08-19.19.21:447][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-19.19.21:447][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-19.19.25:189][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2017.02.08-19.19.25:189][  0]LogWorld: Game class is 'BaseGameMode_C'
+[2017.02.08-19.19.25:197][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.02.08-19.19.25:199][  0]LogInit: WinSock: I am ns3000162 (37.59.45.211:0)
+[2017.02.08-19.19.25:201][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.02.08-19.19.25:202][  0]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2017.02.08-19.19.25:515][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2017.02.08-20.19.25
+[2017.02.08-19.19.25:586][  0]Dreamworld:Display: IMPORTANT: Database - SQLite threading mode: serialized
+
+[2017.02.08-19.19.25:587][  0]Dreamworld:Display: IMPORTANT: Database - SQLite database opened: C:/ConanServer/ConanSandbox/Saved/game.db
+
+[2017.02.08-19.19.25:589][  0]LogWorld: Bringing up level for play took: 0.382064
+[2017.02.08-19.19.27:269][  0]Dreamworld:Display: IMPORTANT: Database - CreateBackup: merged journal -> 0 frames in .WAL, 0 frames checkpointed
+
+[2017.02.08-19.19.27:270][  0]Dreamworld:Display: IMPORTANT: Database - SQLite database opened: C:/ConanServer/ConanSandbox/Saved/game.db
+
+[2017.02.08-19.19.27:272][  0]Dreamworld:Display: IMPORTANT: Database - CreateBackup: database C:\ConanServer\ConanSandbox\Saved\game.db backup complete.
+
+[2017.02.08-19.19.27:274][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-19.19.27:276][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-19.19.27:278][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-19.19.27:279][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-19.19.27:305][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-19.19.27:306][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-19.19.27:307][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-19.19.27:309][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-19.19.27:309][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-19.19.27:309][  0]LogPhysics:Error: PHYSX: (D:\EpicRepo\UE4-QA\Engine\Source\ThirdParty\PhysX\APEX_1.4\module\clothing\src\ClothingActorImpl.cpp 2660) eINVALID_PARAMETER : nvidia::clothing::ClothingActorImpl::isValidDesc: ClothingActorParam::actorScale must be bigger than 0 (is -1.000000)
+[2017.02.08-19.19.27:312][  0]LogPhysics:Error: PHYSX: (D:\EpicRepo\UE4-QA\Engine\Source\ThirdParty\PhysX\APEX_1.4\module\clothing\src\ClothingAssetImpl.cpp 428) eINVALID_PARAMETER : nvidia::clothing::ClothingAssetImpl::isValidForActorCreation: ClothingActorDesc is invalid
+[2017.02.08-19.19.27:318][  0]LogSkeletalMesh: CreateClothingActor: Failed to create an clothing actor (ClothingAsset.22)
+[2017.02.08-19.19.27:319][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-19.19.35:175][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file C:/ConanServer/ConanSandbox/Saved//blacklist.txt does not exist
+[2017.02.08-19.19.35:589][  0]Persistence:Display: WorldPersistence: Loading 338 actors
+[2017.02.08-19.19.38:962][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:964][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:966][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:968][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:970][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:972][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:974][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.38:976][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:757][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:759][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:761][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:763][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:765][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:767][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:769][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.39:771][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.54:657][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-254456.484 Y=12395.678 Z=-1335.537] for [PersistentHumanoidNPC_C]
+[2017.02.08-19.19.54:659][  0]Persistence:Warning: Cannot find property "ThrallInfo" in class "PersistentHumanoidNPC_C"! It will be lost the next time this actor is saved.
+[2017.02.08-19.19.54:789][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-254561.453 Y=12794.304 Z=-570.708] for [PersistentHumanoidNPC_C]
+[2017.02.08-19.19.54:791][  0]Persistence:Warning: Cannot find property "ThrallInfo" in class "PersistentHumanoidNPC_C"! It will be lost the next time this actor is saved.
+[2017.02.08-19.19.56:193][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:195][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:197][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:199][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:201][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:208][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:209][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.56:211][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-19.19.57:212][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-234482.734 Y=2551.195 Z=-2743.877] for [PersistentHumanoidNPC_C]
+[2017.02.08-19.19.57:214][  0]Persistence:Warning: Cannot find property "ThrallInfo" in class "PersistentHumanoidNPC_C"! It will be lost the next time this actor is saved.
+[2017.02.08-19.19.57:374][  0]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-253838.203 Y=12938.688 Z=-1326.364] for [PersistentHumanoidNPC_C]
+[2017.02.08-19.19.57:376][  0]Persistence:Warning: Cannot find property "ThrallInfo" in class "PersistentHumanoidNPC_C"! It will be lost the next time this actor is saved.
+[2017.02.08-19.19.57:417][  0]Persistence:Display: WorldPersistence: Finished loading actors
+[2017.02.08-19.19.57:807][  0]LogLoad: Took 36.359247 seconds to LoadMap(/Game/Maps/ConanSandbox/ConanSandbox)
+[2017.02.08-19.19.57:807][  0]LogInit:Display: Game Engine Initialized.
+[2017.02.08-19.19.57:808][  0]LogLoad: Full Startup: 38.19 seconds (BP compile: 0.00 seconds)
+[2017.02.08-19.19.57:809][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.02.08-19.19.57:844][  0]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 0.03, Realtime: 32.65. SteamNetDriver_0
+[2017.02.08-19.20.51:025][409]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:026][409]LogHandshake: SendConnectChallenge. Timestamp: 53.214741, Cookie: 161075205148230150117209233216022122030007099252249158142089
+[2017.02.08-19.20.51:026][409]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:027][409]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:094][411]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:094][411]LogNet: Server accepting post-challenge connection from: 217.39.105.132:50082
+[2017.02.08-19.20.51:095][411]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.02.08-19.20.51:096][411]LogNet: NotifyAcceptedConnection: Name: ConanSandbox, TimeStamp: 02/08/17 20:20:51, [UNetConnection] RemoteAddr: 217.39.105.132:50082, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.02.08-19.20.51:099][411]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 217.39.105.132:50082, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.02.08-19.20.51:229][415]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox: Accepted
+[2017.02.08-19.20.51:229][415]LogNet: Remote platform little endian=1
+[2017.02.08-19.20.51:230][415]LogNet: This platform little endian=1
+[2017.02.08-19.20.51:231][415]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 24038, ProjectName: conansandbox, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2039073429
+[2017.02.08-19.20.51:233][415]LogNet: NotifyControlMessage: Client connecting with invalid version. LocalNetworkVersion: 2039073429, RemoteNetworkVersion: -766354139
+[2017.02.08-19.20.51:235][415]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 217.39.105.132:50082, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, Channels: 2, Time: 2017.02.08-19.20.51
+[2017.02.08-19.20.51:237][415]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 217.39.105.132:50082, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.02.08-19.20.51:262][416]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:295][417]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.20.51:295][417]LogNet: NotifyAcceptingConnection: Server ConanSandbox accept
+[2017.02.08-19.21.06:302][788]LogStreaming:Display: Suspending async loading (1)
+[2017.02.08-19.21.06:311][788]LogStreaming:Display: Resuming async loading (0)
+[2017.02.08-19.21.06:313][788]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2017.02.08-19.21.06:313][788]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2017.02.08-19.21.06:314][788]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2017.02.08-19.21.07:399][788]LogExit: Preparing to exit.
+[2017.02.08-19.21.07:712][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:714][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:719][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:720][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:731][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:740][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:748][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:750][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:751][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:752][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:806][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:807][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:841][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:842][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:844][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:844][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:845][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:846][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:847][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:848][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:850][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:850][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:856][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:857][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:862][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:862][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:876][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:877][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:882][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:883][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:907][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:908][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:909][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:909][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:912][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:913][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:923][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:924][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:933][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:934][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:936][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:936][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:937][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:938][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:940][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:941][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:942][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:943][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:948][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:949][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:950][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:951][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:952][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:953][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:954][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:955][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:962][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:963][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:973][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:974][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:983][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:984][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:986][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.07:986][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.08:002][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.08:008][788]LogSpawn:Warning: Destroying None.None:None.None, which doesn't have a valid world pointer
+[2017.02.08-19.21.08:205][788]LogExit: Game engine shut down
+[2017.02.08-19.21.10:148][788]Dreamworld:Display: IMPORTANT: Database - Disconnected from database
+
+[2017.02.08-19.21.10:148][788]LogObj: Freed 656b from 1 cluster array pools.
+[2017.02.08-19.21.10:150][788]LogExit: Object subsystem successfully closed.
+[2017.02.08-19.21.10:268][788]LogModuleManager: Shutting down and abandoning module AutomationController (51)
+[2017.02.08-19.21.10:268][788]LogModuleManager: Shutting down and abandoning module AutomationWorker (50)
+[2017.02.08-19.21.10:269][788]LogModuleManager: Shutting down and abandoning module CharacterAI (49)
+[2017.02.08-19.21.10:270][788]LogModuleManager: Shutting down and abandoning module SessionServices (48)
+[2017.02.08-19.21.10:271][788]LogModuleManager: Shutting down and abandoning module AIModule (47)
+[2017.02.08-19.21.10:272][788]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (46)
+[2017.02.08-19.21.10:273][788]LogModuleManager: Shutting down and abandoning module AnalyticsET (45)
+[2017.02.08-19.21.10:274][788]LogModuleManager: Shutting down and abandoning module Analytics (44)
+[2017.02.08-19.21.10:276][788]LogModuleManager: Shutting down and abandoning module SlateRemote (43)
+[2017.02.08-19.21.10:277][788]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (42)
+[2017.02.08-19.21.10:278][788]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (41)
+[2017.02.08-19.21.10:279][788]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (40)
+[2017.02.08-19.21.10:280][788]LogModuleManager: Shutting down and abandoning module HTML5Networking (39)
+[2017.02.08-19.21.10:281][788]LogModuleManager: Shutting down and abandoning module ConanSandbox (37)
+[2017.02.08-19.21.10:282][788]LogModuleManager: Shutting down and abandoning module CableComponent (36)
+[2017.02.08-19.21.10:283][788]LogModuleManager: Shutting down and abandoning module UdpMessaging (35)
+[2017.02.08-19.21.10:284][788]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (34)
+[2017.02.08-19.21.10:285][788]LogModuleManager: Shutting down and abandoning module Paper2D (33)
+[2017.02.08-19.21.10:286][788]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (32)
+[2017.02.08-19.21.10:287][788]LogModuleManager: Shutting down and abandoning module Media (31)
+[2017.02.08-19.21.10:288][788]LogModuleManager: Shutting down and abandoning module WmfMedia (30)
+[2017.02.08-19.21.10:289][788]LogModuleManager: Shutting down and abandoning module Messaging (29)
+[2017.02.08-19.21.10:290][788]LogModuleManager: Shutting down and abandoning module Networking (27)
+[2017.02.08-19.21.10:291][788]LogModuleManager: Shutting down and abandoning module Core (26)
+[2017.02.08-19.21.10:292][788]LogModuleManager: Shutting down and abandoning module ImageWrapper (25)
+[2017.02.08-19.21.10:293][788]LogModuleManager: Shutting down and abandoning module AssetRegistry (24)
+[2017.02.08-19.21.10:333][788]LogModuleManager: Shutting down and abandoning module UE4Dreamworld (23)
+[2017.02.08-19.21.10:335][788]LogModuleManager: Shutting down and abandoning module NullDrv (22)
+[2017.02.08-19.21.10:335][788]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.08-19.21.10:336][788]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.02.08-19.21.10:374][788]LogOnline:Display: Unloading online subsystem: Steam
+[2017.02.08-19.21.10:374][788]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.02.08-19.21.10:378][788]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2017.02.08-19.21.10:880][788]LogModuleManager: Shutting down and abandoning module DreamworldMods (16)
+[2017.02.08-19.21.10:880][788]LogModuleManager: Shutting down and abandoning module DreamworldPreInit (15)
+[2017.02.08-19.21.10:881][788]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2017.02.08-19.21.10:882][788]LogModuleManager: Shutting down and abandoning module Ansel (13)
+[2017.02.08-19.21.10:883][788]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2017.02.08-19.21.10:884][788]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2017.02.08-19.21.10:885][788]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.08-19.21.10:886][788]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.08-19.21.10:887][788]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.08-19.21.10:888][788]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.08-19.21.10:889][788]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.08-19.21.10:890][788]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.08-19.21.10:891][788]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.08-19.21.10:892][788]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.08-19.21.10:893][788]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.08-19.21.10:894][788]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.08-19.21.10:895][788]LogExit: Exiting.
+[2017.02.08-19.21.10:898][788]Log file closed, 02/08/17 20:21:10

@@ -1,0 +1,146 @@
+﻿Log file open, 02/08/17 21:10:20
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1527628979) SRandInit(1527628981).
+LogTaskGraph: Started task graph with 3 named threads and 6 total threads with 1 sets of task threads.
+LogModManager: Starting mod runtime module.
+LogInit: Version: 4.12.5-24038+ue412-dw-TestBranch-osl
+LogInit: API Version: 2992821
+LogInit: Net Version: 24038
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Feb  6 2017 18:43:56
+LogInit: Compiled with Visual C++: 19.00.23918.00
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue412-dw-TestBranch-osl
+LogInit: Command line: -GameServerPort=27015 -GameServerQueryPort=27016 -ServerName="[EU/FR] From Trash | Vanilla | NoLag" -MaxPlayers=70 -nosteamclient -game -server -log
+LogInit: Base directory: C:/ConanServer/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogFileManager:Warning: Error deleting file: ../../../ConanSandbox/Saved/Logs/ConanSandbox-backup-2017.02.08-12.35.35.log (Error Code 5)
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Presizing for max 4194304 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.08-20.10.20:408][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-20.10.20:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2017.02.08-20.10.20:471][  0]LogInit: Computer: NS3000162
+[2017.02.08-20.10.20:471][  0]LogInit: User: root
+[2017.02.08-20.10.20:471][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.08-20.10.20:471][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2017.02.08-20.10.20:471][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.02.08-20.10.20:471][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2017.02.08-20.10.20:471][  0]LogMemory: Process Physical Memory: 111.29 MB used, 111.29 MB peak
+[2017.02.08-20.10.20:471][  0]LogMemory: Process Virtual Memory: 131.01 MB used, 131.01 MB peak
+[2017.02.08-20.10.20:471][  0]LogMemory: Physical Memory: 2519.05 MB used, 32667.39 MB total
+[2017.02.08-20.10.20:471][  0]LogMemory: Virtual Memory: 359.19 MB used, 8388608.00 MB total
+[2017.02.08-20.10.20:513][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.08-20.10.20:720][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-20.10.20:721][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-20.10.20:722][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-20.10.20:723][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-20.10.20:724][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-20.10.20:725][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-20.10.20:726][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-20.10.20:727][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-20.10.20:729][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-20.10.20:741][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2017.02.08-20.10.20:741][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2017.02.08-20.10.20:742][  0]Dreamworld:Display: Dreamworld platform: x64
+[2017.02.08-20.10.20:743][  0]Dreamworld:Display: Dreamworld revision: 24053
+[2017.02.08-20.10.20:744][  0]Dreamworld:Display: Dreamworld snapshot: 10057
+[2017.02.08-20.10.20:745][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Test
+[2017.02.08-20.10.21:095][  0]LogAssetRegistry: FAssetRegistry took 0.3488 seconds to start up
+[2017.02.08-20.10.21:101][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.006094 seconds
+[2017.02.08-20.10.21:394][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-20.10.21:673][  0]LogUObjectArray: 36672 objects as part of root set at end of initial load.
+[2017.02.08-20.10.21:673][  0]LogUObjectAllocator: 7384672 out of 0 bytes used by permanent object pool.
+[2017.02.08-20.10.21:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.08-20.10.21:675][  0]LogModuleManager:Warning: ModuleManager: Module 'XAudio2' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-20.10.21:689][  0]LogWmfMedia: Failed to load mf.dll
+[2017.02.08-20.10.21:689][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2017.02.08-20.10.21:690][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2017.02.08-20.10.21:691][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2017.02.08-20.10.21:692][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2017.02.08-20.10.21:715][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-20.10.21:720][  0]LogEngine: Initializing Engine...
+[2017.02.08-20.10.21:724][  0]LogInit: Texture streaming: Disabled
+[2017.02.08-20.10.21:728][  0]LogFileManager:Warning: Error deleting file: ../../../ConanSandbox/Saved/Config/WindowsServer/GameUserSettings.ini (Error Code 5)
+[2017.02.08-20.10.21:731][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-20.10.21:732][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-20.10.25:804][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2017.02.08-20.10.25:805][  0]LogWorld: Game class is 'BaseGameMode_C'
+[2017.02.08-20.10.25:816][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.02.08-20.10.25:819][  0]LogInit: WinSock: I am ns3000162 (37.59.45.211:0)
+[2017.02.08-20.10.25:820][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.02.08-20.10.25:820][  0]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2017.02.08-20.10.26:135][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2017.02.08-21.10.26
+[2017.02.08-20.10.28:964][  0]Dreamworld:Display: IMPORTANT: Database - SQLite threading mode: serialized
+
+[2017.02.08-20.10.28:965][  0]Dreamworld:Display: IMPORTANT: Database - SQLite database opened: C:/ConanServer/ConanSandbox/Saved/game.db
+
+[2017.02.08-20.10.28:968][  0]Dreamworld:Display: IMPORTANT: Database - CreateBackup: merged journal -> 0 frames in .WAL, 0 frames checkpointed
+
+[2017.02.08-20.10.28:970][  0]Dreamworld:Display: IMPORTANT: Database - SQLite database opened: C:/ConanServer/ConanSandbox/Saved/game.db
+
+[2017.02.08-20.10.28:972][  0]Dreamworld:Display: CODEERROR: Database - attempt to write a readonly database
+
+[2017.02.08-20.10.28:974][  0]LogWorld: Bringing up level for play took: 3.142374
+[2017.02.08-20.10.31:531][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-20.10.31:531][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-20.10.31:533][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-20.10.31:534][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-20.10.31:550][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-20.10.31:551][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-20.10.31:552][  0]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2017.02.08-20.10.31:553][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-20.10.31:553][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-20.10.31:554][  0]LogPhysics:Error: PHYSX: (D:\EpicRepo\UE4-QA\Engine\Source\ThirdParty\PhysX\APEX_1.4\module\clothing\src\ClothingActorImpl.cpp 2660) eINVALID_PARAMETER : nvidia::clothing::ClothingActorImpl::isValidDesc: ClothingActorParam::actorScale must be bigger than 0 (is -1.000000)
+[2017.02.08-20.10.31:556][  0]LogPhysics:Error: PHYSX: (D:\EpicRepo\UE4-QA\Engine\Source\ThirdParty\PhysX\APEX_1.4\module\clothing\src\ClothingAssetImpl.cpp 428) eINVALID_PARAMETER : nvidia::clothing::ClothingAssetImpl::isValidForActorCreation: ClothingActorDesc is invalid
+[2017.02.08-20.10.31:558][  0]LogSkeletalMesh: CreateClothingActor: Failed to create an clothing actor (ClothingAsset.22)
+[2017.02.08-20.10.31:558][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: SkeletalMeshComponent0
+[2017.02.08-20.10.39:165][  0]ConanSandbox:Display: AServerBlacklist::LoadSettings(): Blacklist file C:/ConanServer/ConanSandbox/Saved//blacklist.txt does not exist
+[2017.02.08-20.10.39:413][  0]Persistence:Display: WorldPersistence: Loading 338 actors
+[2017.02.08-20.10.39:737][  0]Dreamworld:Display: Previous message repeated 50 more times
+
+[2017.02.08-20.10.39:738][  0]Dreamworld:Display: CODEERROR: Database - attempt to write a readonly database
+
+[2017.02.08-20.10.39:740][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:743][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:745][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:747][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:749][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:751][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:753][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:759][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:802][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:804][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:806][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:808][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:810][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:812][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:814][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:816][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:837][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:838][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:841][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:843][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:845][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:847][  0]LogClass:Warning: Skipping saved property BonusRecipes of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:849][  0]LogClass:Warning: Skipping saved property CraftingGroups of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:851][  0]LogClass:Warning: Skipping saved property ThrallTemplateID of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:873][  0]LogClass:Warning: Skipping saved property ThrallName of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:875][  0]LogClass:Warning: Skipping saved property ThrallIcon of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:877][  0]LogClass:Warning: Skipping saved property ThrallTier of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:879][  0]LogClass:Warning: Skipping saved property ThrallBuff of ThrallInfo since it is no longer serializable for asset:  FMemoryReader. (Maybe resave asset?)
+[2017.02.08-20.10.39:882][  0]LogClass:Warning: Skipping saved property ThrallProfession of ThrallInfo since it is no longer serializable for 

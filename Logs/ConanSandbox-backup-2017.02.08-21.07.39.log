@@ -1,0 +1,93 @@
+﻿Log file open, 02/08/17 20:21:59
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(506837282) SRandInit(506837286).
+LogTaskGraph: Started task graph with 3 named threads and 6 total threads with 1 sets of task threads.
+LogModManager: Starting mod runtime module.
+LogInit: Version: 4.12.5-24038+ue412-dw-TestBranch-osl
+LogInit: API Version: 2992821
+LogInit: Net Version: 24038
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Feb  6 2017 18:43:56
+LogInit: Compiled with Visual C++: 19.00.23918.00
+LogInit: Build Configuration: Test
+LogInit: Branch Name: ue412-dw-TestBranch-osl
+LogInit: Command line: -GameServerPort=27015 -GameServerQueryPort=27016 -ServerName="[EU/FR] From Trash | Vanilla | NoLag" -MaxPlayers=70 -nosteamclient -game -server -log
+LogInit: Base directory: C:/ConanServer/ConanSandbox/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogOnline:Display: STEAM: Loading Steam SDK 1.38a
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Presizing for max 4194304 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.08-19.21.59:296][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-19.21.59:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2017.02.08-19.21.59:359][  0]LogInit: Computer: NS3000162
+[2017.02.08-19.21.59:359][  0]LogInit: User: root
+[2017.02.08-19.21.59:359][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.08-19.21.59:359][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2017.02.08-19.21.59:359][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.02.08-19.21.59:359][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2017.02.08-19.21.59:359][  0]LogMemory: Process Physical Memory: 111.27 MB used, 111.27 MB peak
+[2017.02.08-19.21.59:359][  0]LogMemory: Process Virtual Memory: 130.88 MB used, 130.88 MB peak
+[2017.02.08-19.21.59:359][  0]LogMemory: Physical Memory: 2457.73 MB used, 32667.39 MB total
+[2017.02.08-19.21.59:359][  0]LogMemory: Virtual Memory: 360.29 MB used, 8388608.00 MB total
+[2017.02.08-19.21.59:399][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.08-19.21.59:603][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.21.59:605][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.21.59:605][  0]LogCollisionProfile:Warning: Profile (Attack) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.21.59:607][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.21.59:608][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.21.59:609][  0]LogCollisionProfile:Warning: Profile (Defense) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.21.59:610][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel16' hasn't been found
+[2017.02.08-19.21.59:611][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel17' hasn't been found
+[2017.02.08-19.21.59:612][  0]LogCollisionProfile:Warning: Profile (Hitbox) - Custom Channel Name = 'GameTraceChannel18' hasn't been found
+[2017.02.08-19.21.59:619][  0]Dreamworld:Display: Dreamworld project: CSAND
+[2017.02.08-19.21.59:619][  0]Dreamworld:Display: Dreamworld configuration: ConanSandbox.Client.VS2015.Live.Win64
+[2017.02.08-19.21.59:620][  0]Dreamworld:Display: Dreamworld platform: x64
+[2017.02.08-19.21.59:621][  0]Dreamworld:Display: Dreamworld revision: 24053
+[2017.02.08-19.21.59:622][  0]Dreamworld:Display: Dreamworld snapshot: 10057
+[2017.02.08-19.21.59:623][  0]Dreamworld:Display: Dreamworld branch: ConanSandbox_Test
+[2017.02.08-19.21.59:990][  0]LogAssetRegistry: FAssetRegistry took 0.3655 seconds to start up
+[2017.02.08-19.21.59:997][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005712 seconds
+[2017.02.08-19.22.00:295][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2017.02.08-19.22.00:574][  0]LogUObjectArray: 36672 objects as part of root set at end of initial load.
+[2017.02.08-19.22.00:574][  0]LogUObjectAllocator: 7384672 out of 0 bytes used by permanent object pool.
+[2017.02.08-19.22.00:575][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.08-19.22.00:576][  0]LogModuleManager:Warning: ModuleManager: Module 'XAudio2' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-19.22.00:589][  0]LogWmfMedia: Failed to load mf.dll
+[2017.02.08-19.22.00:589][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2017.02.08-19.22.00:590][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2017.02.08-19.22.00:591][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2017.02.08-19.22.00:592][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2017.02.08-19.22.00:615][  0]LogModuleManager:Warning: ModuleManager: Module 'EnvironmentQueryEditor' not found - its StaticallyLinkedModuleInitializers function is null.
+[2017.02.08-19.22.00:620][  0]LogEngine: Initializing Engine...
+[2017.02.08-19.22.00:625][  0]LogInit: Texture streaming: Disabled
+[2017.02.08-19.22.00:631][  0]LogNet: Browse: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-19.22.00:631][  0]LogLoad: LoadMap: /Game/Maps/ConanSandbox/ConanSandbox?Name=Player
+[2017.02.08-19.22.04:270][  0]LogAIModule: Creating AISystem for world ConanSandbox
+[2017.02.08-19.22.04:270][  0]LogWorld: Game class is 'BaseGameMode_C'
+[2017.02.08-19.22.04:279][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.02.08-19.22.04:282][  0]LogInit: WinSock: I am ns3000162 (37.59.45.211:0)
+[2017.02.08-19.22.04:283][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.02.08-19.22.04:283][  0]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2017.02.08-19.22.04:599][  0]LogWorld: Bringing World /Game/Maps/ConanSandbox/ConanSandbox.ConanSandbox up for play (max tick rate 30) at 2017.02.08-20.22.04
+[2017.02.08-19.22.04:665][  0]Dreamworld:Display: IMPORTANT: Database - SQLite threading mode: serialized
+
+[2017.02.08-19.22.04:666][  0]Dreamworld:Display: IMPORTANT: Database - SQLite database opened: C:/ConanServer/ConanSandbox/Saved/game.db
+
+[2017.02.08-19.22.04:668][  0]LogWorld: Bringing up level for play took: 0.377632
+[2017.02.08-19.22.06:785][  0]Dreamworld:Display: IMPORTANT: Database - CreateBackup: merged journal -> 0 frames in .WAL, 0 frames checkpointed
+
+[2017.02.08-19.22.06:786][  0]Dreamworld:Dis
